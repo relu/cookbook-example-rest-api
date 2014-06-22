@@ -22,5 +22,9 @@ gem 'spring',    group: :development
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'pry', group: [:development, :test]
-gem 'sqlite3', group: [:development, :test]
+group :development, :test do
+  gem 'pry'
+  gem 'sqlite3'
+  gem 'rspec-rails'
+  gem 'fabrication'
+end
