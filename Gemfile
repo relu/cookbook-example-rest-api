@@ -29,4 +29,5 @@ group :development, :test do
   gem 'fabrication'
   gem 'ffaker'
   gem 'shoulda-matchers'
+  gem 'database_cleaner'
 end
