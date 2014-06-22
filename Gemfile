@@ -28,4 +28,5 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'fabrication'
   gem 'ffaker'
+  gem 'shoulda-matchers'
 end
