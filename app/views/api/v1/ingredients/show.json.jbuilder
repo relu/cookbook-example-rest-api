@@ -1,1 +1,1 @@
-json.extract! @api_v1_ingredient, :id, :created_at, :updated_at
+json.extract! @ingredient, :id, :name, :quantity, :units
